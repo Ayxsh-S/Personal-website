@@ -93,21 +93,21 @@ export const projects = [
 
 export const writing = [
   {
-    title: "Designing for hiring managers",
+    title: "Designing for clarity under pressure",
     meta: "Process note",
     excerpt:
-      "A strong portfolio should make decision-making easy: what you built, why it mattered, and how you think.",
+        "How I simplified a messy interface into a clearer, faster experience.",
   },
   {
-    title: "Why most portfolios feel forgettable",
+    title: "What makes portfolios forgettable",
     meta: "Observation",
     excerpt:
-      "The problem is rarely the technology. It is usually weak hierarchy, too much noise, and no point of view.",
+        "Why weak structure and vague explanations make even good projects easy to ignore.",
   },
   {
-    title: "What I look for in a frontend project",
+    title: "What I think about before shipping",
     meta: "Checklist",
     excerpt:
-      "Clear structure, clean state handling, responsive details, and a visual system that feels intentional.",
+        "Structure, responsive behavior, state handling, performance, and visual consistency.",
   },
 ];

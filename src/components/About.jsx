@@ -4,8 +4,8 @@ export default function About() {
             <div className="container about-grid">
                 <div className="about-copy" data-reveal>
                     <p className="eyebrow">About</p>
-                    <h2>My personal website</h2>
-                    <p>This is my own website where I showcase my projects.</p>
+                    <h2>Building polished web experiences with purpose.</h2>
+                    <p>I design and build clean, thoughtful web experiences with a focus on clarity, responsiveness, and attention to detail. This site highlights the projects, decisions, and problem-solving behind my work.</p>
                 </div>
 
                 <div className="about-card" data-reveal>

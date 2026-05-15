@@ -6,7 +6,7 @@ export default function Writing() {
             <div className="container">
                 <div className="section-head" data-reveal>
                     <p className="eyebrow">Writing</p>
-                    <h2>Project stories that show decisions, not just screenshots.</h2>
+                    <h2>I write short project notes that explain what I built, why I made each choice, and what I would improve next. That gives a clearer view of how I work than screenshots alone.</h2>
                     <p className="section-copy">
                         A few concise notes.
                     </p>
