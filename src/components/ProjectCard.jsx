@@ -8,7 +8,13 @@ export default function ProjectCard({ project }) {
                     <span />
                 </div>
                 <div className="project-preview">
-                    <img src={project.preview} alt={`${project.title} preview`} />
+                    <a 
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                    >
+                        <img src={project.preview} alt={`${project.title} preview`} />
+                    </a>
                 </div>
             </div>
 

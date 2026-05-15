@@ -5,7 +5,7 @@ export default function Hero() {
                 <div className="hero-copy" data-reveal>
                     <p className="eyebrow">FULL-STACK DEVELOPER · UI ENGINEER · JAVASCRIPT</p>
                     <h1>
-                       I build modern web experiences that feel fast, polished, and easy to use.
+                       I build modern web experiences that feel fast, polished and easy to use.
                     </h1>
                     <p className="hero-text">
                         I care about clean design, strong engineering, and shipping work that makes a product feel credible from the first click.
@@ -36,6 +36,7 @@ export default function Hero() {
                     <div className="panel-car">
                         <div className="panel-topline">
                             <span>Maths & CS student</span>
+                            <span>London, United Kingdom</span>
                         </div>
 
                         <div className="profile-mark">

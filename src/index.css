@@ -7,6 +7,7 @@
   --text: #edf1f7;
   --muted: #9aa4b2;
   --faint: #6b7280;
+  --muted-less: #bfc5ca;
   --accent: #c7a86b;
   --accent-soft: rgba(199, 168, 107, 0.12);
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
@@ -139,8 +140,6 @@ textarea {
 
 .hero-text,
 .section-copy,
-.about-copy p,
-.contact-copy p,
 .note-card p,
 .project-summary,
 .project-body li,
@@ -148,6 +147,43 @@ textarea {
 .panel-card p {
   color: var(--muted);
   line-height: 1.75;
+}
+
+.about-copy p,
+.contact-copy p {
+  line-height: 1.75;
+}
+
+.contact-top p {
+  color: var(--muted-less);
+  line-height: 1.5;
+  margin-bottom: -6px;
+  font-size: 14px;
+}
+
+.contact-top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.contact-subcontainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: -8px;
+}
+
+.contact-subcontainer p {
+  margin: 0;
+  line-height: 1;
 }
 
 .hero-text {
@@ -316,6 +352,12 @@ textarea {
 .section-copy {
   max-width: 100ch;
   margin: 18px 0 0;
+  color: var(--muted-less);
+}
+
+.unwanted {
+  color: var(--faint);
+  font-size: 0.75rem;
 }
 
 .projects-grid {
