@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="container footer-inner">
                 <p>© {new Date().getFullYear()} Ayush Sahu</p>
-                <a href="#top">Back to top</a>
+                <a href="#top">⬆ Back to top</a>
             </div>
         </footer>
     );
